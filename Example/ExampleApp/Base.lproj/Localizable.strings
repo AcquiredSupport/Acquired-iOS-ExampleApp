@@ -1,0 +1,18 @@
+
+"apple_pay" = "Apple Pay";
+"available_payment_types" = "Available Payment Types";
+"card" = "Card";
+"error" = "Error";
+"details" = "Details";
+"blocked_540_message" = "There was a problem with 3DS verification";
+"declined_301_message" = "Unable to complete payment due to insufficient funds - please try again";
+"ok" = "OK";
+"order_total" = "Order total";
+"pay" = "Pay";
+"pay_pal" = "PayPal";
+"payment_authorized" = "Payment authorized";
+"payment_summary" = "Payment Summary";
+"success" = "Success";
+"unmapped_payment_type" = "Unmapped payment type";
+"user_dismissed_view" = "The user dismissed the view";
+"loading_card_payment" = "Loading card payment screen";

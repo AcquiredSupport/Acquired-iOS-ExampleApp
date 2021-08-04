@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ACQPaymentGateway",
+        "repositoryURL": "https://github.com/AcquiredSupport/Acquired-iOS-MacOS.git",
+        "state": {
+          "branch": null,
+          "revision": "a8cf4b0b455fc091ad6826f6f0fee251b8317c98",
+          "version": "0.0.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
