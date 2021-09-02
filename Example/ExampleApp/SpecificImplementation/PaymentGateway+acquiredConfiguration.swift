@@ -18,11 +18,19 @@ extension PaymentGateway {
             // swiftlint:disable:next avoid_hardcoded_constants
             requestRetryAttempts: 3
         )
+        let certificatePinner = TrustKitCertificatePinner(.acquired)
         if hasDismissButton {
             let options = ViewControllerPresentationOptions(hasDismissButton: true)
-            return PaymentGateway(configuration: configuration, presentationOptions: options)
+            return PaymentGateway(
+                configuration: configuration,
+                certificatePinner: certificatePinner,
+                presentationOptions: options
+            )
         } else {
-            return PaymentGateway(configuration: configuration)
+            return PaymentGateway(
+                configuration: configuration,
+                certificatePinner: certificatePinner
+            )
         }
     }
 }

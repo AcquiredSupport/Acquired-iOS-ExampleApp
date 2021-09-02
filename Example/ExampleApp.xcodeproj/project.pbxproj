@@ -15,6 +15,8 @@
 		1B369193266F66200035472C /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B369192266F66200035472C /* CountryCode.swift */; };
 		1B369195266F78FF0035472C /* TextFieldWithPickerAsInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B369194266F78FF0035472C /* TextFieldWithPickerAsInputView.swift */; };
 		1B369197266F88E10035472C /* PickerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B369196266F88E10035472C /* PickerSelectionView.swift */; };
+		1B3C44F126E0CF100077844E /* TrustKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1B3C44F026E0CF100077844E /* TrustKit */; };
+		1B3C453426E0E45E0077844E /* ACQPaymentSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 1B3C453326E0E45E0077844E /* ACQPaymentSDK */; };
 		1B56EFD125C94A9D00F9631E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B56EFCF25C94A9D00F9631E /* Localizable.strings */; };
 		1B7B10F525B818FF00BCE1C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7B10F425B818FF00BCE1C7 /* AppDelegate.swift */; };
 		1B7B10F725B818FF00BCE1C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7B10F625B818FF00BCE1C7 /* SceneDelegate.swift */; };
@@ -26,8 +28,8 @@
 		1B9D44472642954A00F18E30 /* CustomerInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D44442642954A00F18E30 /* CustomerInputView.swift */; };
 		1B9D44492642955D00F18E30 /* InputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D44482642955D00F18E30 /* InputViewModel.swift */; };
 		1B9D444B26429C0B00F18E30 /* PaymentGateway+acquiredConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D444A26429C0B00F18E30 /* PaymentGateway+acquiredConfiguration.swift */; };
-		1BA2749026BAEC8400B9B2DB /* ACQPaymentGateway in Frameworks */ = {isa = PBXBuildFile; productRef = 1BA2748F26BAEC8400B9B2DB /* ACQPaymentGateway */; };
-		1BB2605C25EE68D400639451 /* QA.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BB2605B25EE68D300639451 /* QA.plist */; };
+		1BE5824026DF6371001450C1 /* PinningConfiguration+ACQConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5823E26DF6371001450C1 /* PinningConfiguration+ACQConfiguration.swift */; };
+		1BE5824126DF6371001450C1 /* TrustKitCertificatePinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5823F26DF6371001450C1 /* TrustKitCertificatePinner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,8 +54,9 @@
 		1B9D44442642954A00F18E30 /* CustomerInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerInputView.swift; sourceTree = "<group>"; };
 		1B9D44482642955D00F18E30 /* InputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewModel.swift; sourceTree = "<group>"; };
 		1B9D444A26429C0B00F18E30 /* PaymentGateway+acquiredConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaymentGateway+acquiredConfiguration.swift"; sourceTree = "<group>"; };
-		1BB2605B25EE68D300639451 /* QA.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QA.plist; sourceTree = "<group>"; };
 		1BCA798D25B82FA3009A0CF1 /* ExampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExampleApp.entitlements; sourceTree = "<group>"; };
+		1BE5823E26DF6371001450C1 /* PinningConfiguration+ACQConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PinningConfiguration+ACQConfiguration.swift"; sourceTree = "<group>"; };
+		1BE5823F26DF6371001450C1 /* TrustKitCertificatePinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustKitCertificatePinner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BA2749026BAEC8400B9B2DB /* ACQPaymentGateway in Frameworks */,
+				1B3C453426E0E45E0077844E /* ACQPaymentSDK in Frameworks */,
+				1B3C44F126E0CF100077844E /* TrustKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +86,6 @@
 			children = (
 				1B7B10F325B818FF00BCE1C7 /* ExampleApp */,
 				1B7B10F225B818FF00BCE1C7 /* Products */,
-				1B7B113425B81A4C00BCE1C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +100,6 @@
 		1B7B10F325B818FF00BCE1C7 /* ExampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				1BB2605A25EE68D300639451 /* ExportOptions */,
 				1BCA798D25B82FA3009A0CF1 /* ExampleApp.entitlements */,
 				1B7B113C25B8236C00BCE1C7 /* SpecificImplementation */,
 				1B7B112E25B8192D00BCE1C7 /* DefaultImplementation */,
@@ -128,16 +130,10 @@
 			path = DefaultImplementation;
 			sourceTree = "<group>";
 		};
-		1B7B113425B81A4C00BCE1C7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		1B7B113C25B8236C00BCE1C7 /* SpecificImplementation */ = {
 			isa = PBXGroup;
 			children = (
+				1BE5823D26DF62E5001450C1 /* CertificatePinning */,
 				1B9D44412642954A00F18E30 /* CustomerInput */,
 				1B2A81BC25C83E1C002C2626 /* AvailablePaymentsView.swift */,
 				1B9D444A26429C0B00F18E30 /* PaymentGateway+acquiredConfiguration.swift */,
@@ -169,12 +165,13 @@
 			path = CustomerInput;
 			sourceTree = "<group>";
 		};
-		1BB2605A25EE68D300639451 /* ExportOptions */ = {
+		1BE5823D26DF62E5001450C1 /* CertificatePinning */ = {
 			isa = PBXGroup;
 			children = (
-				1BB2605B25EE68D300639451 /* QA.plist */,
+				1BE5823F26DF6371001450C1 /* TrustKitCertificatePinner.swift */,
+				1BE5823E26DF6371001450C1 /* PinningConfiguration+ACQConfiguration.swift */,
 			);
-			path = ExportOptions;
+			path = CertificatePinning;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +191,8 @@
 			);
 			name = ExampleApp;
 			packageProductDependencies = (
-				1BA2748F26BAEC8400B9B2DB /* ACQPaymentGateway */,
+				1B3C44F026E0CF100077844E /* TrustKit */,
+				1B3C453326E0E45E0077844E /* ACQPaymentSDK */,
 			);
 			productName = ExampleApp;
 			productReference = 1B7B10F125B818FF00BCE1C7 /* ExampleApp.app */;
@@ -224,7 +222,8 @@
 			);
 			mainGroup = 1B7B10E825B818FF00BCE1C7;
 			packageReferences = (
-				1BA2748E26BAEC8400B9B2DB /* XCRemoteSwiftPackageReference "Acquired-iOS-MacOS" */,
+				1BE5824226DF64D5001450C1 /* XCRemoteSwiftPackageReference "TrustKit" */,
+				1B3C453226E0E45E0077844E /* XCRemoteSwiftPackageReference "Acquired-iOS-MacOS" */,
 			);
 			productRefGroup = 1B7B10F225B818FF00BCE1C7 /* Products */;
 			projectDirPath = "";
@@ -244,7 +243,6 @@
 				1B56EFD125C94A9D00F9631E /* Localizable.strings in Resources */,
 				1B2F8CCB25E9020B00393695 /* GoogleService-Info.plist in Resources */,
 				1B7B10FE25B8190100BCE1C7 /* Preview Assets.xcassets in Resources */,
-				1BB2605C25EE68D400639451 /* QA.plist in Resources */,
 				1B7B10FB25B8190100BCE1C7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B7B10F525B818FF00BCE1C7 /* AppDelegate.swift in Sources */,
+				1BE5824126DF6371001450C1 /* TrustKitCertificatePinner.swift in Sources */,
 				1B369195266F78FF0035472C /* TextFieldWithPickerAsInputView.swift in Sources */,
 				1B9D444B26429C0B00F18E30 /* PaymentGateway+acquiredConfiguration.swift in Sources */,
 				1B369197266F88E10035472C /* PickerSelectionView.swift in Sources */,
@@ -265,6 +264,7 @@
 				1B1EECF2266FB245000880AB /* PickerDataSelectable.swift in Sources */,
 				1B9D44402642953E00F18E30 /* InputView.swift in Sources */,
 				1B369193266F66200035472C /* CountryCode.swift in Sources */,
+				1BE5824026DF6371001450C1 /* PinningConfiguration+ACQConfiguration.swift in Sources */,
 				1B1EECF42670E37E000880AB /* ACQContactDetails.swift in Sources */,
 				1B2A81BD25C83E1C002C2626 /* AvailablePaymentsView.swift in Sources */,
 				1B9D44472642954A00F18E30 /* CustomerInputView.swift in Sources */,
@@ -430,6 +430,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.0.7;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.acquired.paymentdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development com.acquired.paymentdemo";
@@ -457,6 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.0.7;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.acquired.paymentdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.acquired.paymentdemo";
@@ -489,21 +491,34 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1BA2748E26BAEC8400B9B2DB /* XCRemoteSwiftPackageReference "Acquired-iOS-MacOS" */ = {
+		1B3C453226E0E45E0077844E /* XCRemoteSwiftPackageReference "Acquired-iOS-MacOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AcquiredSupport/Acquired-iOS-MacOS.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.4;
+				minimumVersion = 1.0.0;
+			};
+		};
+		1BE5824226DF64D5001450C1 /* XCRemoteSwiftPackageReference "TrustKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:datatheorem/TrustKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1BA2748F26BAEC8400B9B2DB /* ACQPaymentGateway */ = {
+		1B3C44F026E0CF100077844E /* TrustKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1BA2748E26BAEC8400B9B2DB /* XCRemoteSwiftPackageReference "Acquired-iOS-MacOS" */;
-			productName = ACQPaymentGateway;
+			package = 1BE5824226DF64D5001450C1 /* XCRemoteSwiftPackageReference "TrustKit" */;
+			productName = TrustKit;
+		};
+		1B3C453326E0E45E0077844E /* ACQPaymentSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B3C453226E0E45E0077844E /* XCRemoteSwiftPackageReference "Acquired-iOS-MacOS" */;
+			productName = ACQPaymentSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
