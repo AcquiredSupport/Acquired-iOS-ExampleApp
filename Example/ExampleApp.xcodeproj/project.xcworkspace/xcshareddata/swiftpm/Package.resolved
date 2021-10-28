@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "ACQPaymentSDK",
-        "repositoryURL": "https://github.com/AcquiredSupport/Acquired-iOS-MacOS.git",
+        "repositoryURL": "git@github.com:AcquiredSupport/Acquired-iOS-MacOS.git",
         "state": {
           "branch": null,
-          "revision": "2d68517f7834966098e2b21f5f098ee5c1b36779",
-          "version": "1.0.0"
+          "revision": "703703c829240e47ddd6899142b0eac80c4f7b07",
+          "version": "1.0.4"
         }
       },
       {

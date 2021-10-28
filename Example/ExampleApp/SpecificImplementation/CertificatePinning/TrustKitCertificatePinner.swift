@@ -2,7 +2,7 @@ import ACQNetworkSecurity
 import Core
 import TrustKit
 
-/// Certifcate Pinner - Uses Trustkit to Pin SSL certifcates during network communication
+/// TrustKit Certifcate Pinner - Uses Trustkit to Pin SSL certifcates during network communication
 public class TrustKitCertificatePinner: CertificatePinner {
     private var trustKit: TrustKit
     /// A dictionary of SSL pinning results keyed by domain
