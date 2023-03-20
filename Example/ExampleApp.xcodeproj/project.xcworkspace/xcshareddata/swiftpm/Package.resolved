@@ -1,25 +1,23 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "ACQPaymentSDK",
-        "repositoryURL": "git@github.com:AcquiredSupport/Acquired-iOS-MacOS.git",
-        "state": {
-          "branch": null,
-          "revision": "703703c829240e47ddd6899142b0eac80c4f7b07",
-          "version": "1.0.4"
-        }
-      },
-      {
-        "package": "TrustKit",
-        "repositoryURL": "git@github.com:datatheorem/TrustKit.git",
-        "state": {
-          "branch": null,
-          "revision": "3e98aeb36aff65067cdae55bca7be7f1157deffb",
-          "version": "2.0.0"
-        }
+  "pins" : [
+    {
+      "identity" : "acquired-ios-macos",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:AcquiredSupport/Acquired-iOS-MacOS.git",
+      "state" : {
+        "revision" : "9cc9b202da418e5bf3b4e586b932e433e18366c0",
+        "version" : "1.0.7"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "trustkit",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:datatheorem/TrustKit.git",
+      "state" : {
+        "revision" : "3e98aeb36aff65067cdae55bca7be7f1157deffb",
+        "version" : "2.0.0"
+      }
+    }
+  ],
+  "version" : 2
 }
