@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.4</string>
+	<string>1.0.7</string>
 	<key>CFBundleVersion</key>
 	<string>2021.10.29</string>
 	<key>LSRequiresIPhoneOS</key>

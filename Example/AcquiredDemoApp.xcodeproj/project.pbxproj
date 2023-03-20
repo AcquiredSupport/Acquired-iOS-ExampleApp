@@ -48,7 +48,7 @@
 		1B369194266F78FF0035472C /* TextFieldWithPickerAsInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithPickerAsInputView.swift; sourceTree = "<group>"; };
 		1B369196266F88E10035472C /* PickerSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSelectionView.swift; sourceTree = "<group>"; };
 		1B56EFD025C94A9D00F9631E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		1B7B10F125B818FF00BCE1C7 /* AcquiredPaymentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcquiredPaymentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7B10F125B818FF00BCE1C7 /* AcquiredDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcquiredDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7B10F425B818FF00BCE1C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		1B7B10F625B818FF00BCE1C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
 		1B7B10FA25B8190100BCE1C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 		1B7B10F225B818FF00BCE1C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B7B10F125B818FF00BCE1C7 /* AcquiredPaymentDemo.app */,
+				1B7B10F125B818FF00BCE1C7 /* AcquiredDemoApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -203,9 +203,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1B7B10F025B818FF00BCE1C7 /* AcquiredPaymentDemo */ = {
+		1B7B10F025B818FF00BCE1C7 /* AcquiredDemoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B7B111B25B8190100BCE1C7 /* Build configuration list for PBXNativeTarget "AcquiredPaymentDemo" */;
+			buildConfigurationList = 1B7B111B25B8190100BCE1C7 /* Build configuration list for PBXNativeTarget "AcquiredDemoApp" */;
 			buildPhases = (
 				1B7B10ED25B818FF00BCE1C7 /* Sources */,
 				1B7B10EE25B818FF00BCE1C7 /* Frameworks */,
@@ -215,13 +215,13 @@
 			);
 			dependencies = (
 			);
-			name = AcquiredPaymentDemo;
+			name = AcquiredDemoApp;
 			packageProductDependencies = (
 				1BE5824326DF64D6001450C1 /* TrustKit */,
 				1B3136AF272BE90C0078E15D /* ACQPaymentSDK */,
 			);
 			productName = ExampleApp;
-			productReference = 1B7B10F125B818FF00BCE1C7 /* AcquiredPaymentDemo.app */;
+			productReference = 1B7B10F125B818FF00BCE1C7 /* AcquiredDemoApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -238,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1B7B10EC25B818FF00BCE1C7 /* Build configuration list for PBXProject "AcquiredPaymentDemo" */;
+			buildConfigurationList = 1B7B10EC25B818FF00BCE1C7 /* Build configuration list for PBXProject "AcquiredDemoApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -255,7 +255,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1B7B10F025B818FF00BCE1C7 /* AcquiredPaymentDemo */,
+				1B7B10F025B818FF00BCE1C7 /* AcquiredDemoApp */,
 			);
 		};
 /* End PBXProject section */
@@ -504,7 +504,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B7B10EC25B818FF00BCE1C7 /* Build configuration list for PBXProject "AcquiredPaymentDemo" */ = {
+		1B7B10EC25B818FF00BCE1C7 /* Build configuration list for PBXProject "AcquiredDemoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B7B111925B8190100BCE1C7 /* Debug */,
@@ -513,7 +513,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B7B111B25B8190100BCE1C7 /* Build configuration list for PBXNativeTarget "AcquiredPaymentDemo" */ = {
+		1B7B111B25B8190100BCE1C7 /* Build configuration list for PBXNativeTarget "AcquiredDemoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B7B111C25B8190100BCE1C7 /* Debug */,
